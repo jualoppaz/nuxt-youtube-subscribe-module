@@ -148,8 +148,8 @@ For using this module you only have to add the `<youtube-subscribe-button>` tag 
 
 **Module** (when app starts)
 1. The module overwrites all default options with the given ones.
-2. The module load the plugin with the `YoutubeSubscribeButton` global Vue component.
-3. The module load the Google JavaScript API.
+2. The module loads the plugin with the `YoutubeSubscribeButton` global Vue component.
+3. The module loads the Google JavaScript API.
 
 **YoutubeSubscribeButton** (when component is used)
 1. The component validates all props.
