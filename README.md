@@ -144,7 +144,7 @@ For using this module you only have to add the `<youtube-subscribe-button>` tag 
 | `theme` | String | **Optional**. Desired theme for the subscribe button. Available values are ` ` (empty string) and `dark`. Defaults to ` `.
 | `count` | String | **Optional**. For indicate the visibility of subscribers count. Available values are `default` and `hidden`. Defaults to `default`.
 
-## How does this module works❓
+## How does this module work❓
 
 **Module** (when app starts)
 1. The module overwrites all default options with the given ones.
