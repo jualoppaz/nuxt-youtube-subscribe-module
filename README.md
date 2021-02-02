@@ -150,8 +150,11 @@ For using this module you only have to add the `<youtube-subscribe-button>` tag 
 1. The module overwrites all default options with the given ones.
 2. The module loads the plugin with the `YoutubeSubscribeButton` global Vue component.
 3. The module loads the Google JavaScript API.
+4. The `youtube-subscribe:gapi-loaded` custom event is fired for very quick components.
 
 **YoutubeSubscribeButton** (when component is used)
 1. The component validates all props.
 2. All component options are collected.
-3. Subscribe button is rendered through `render` gapi (Google API) method. 
+3. The subscribe button is rendered through `render` gapi (Google API) method if available.
+4. A listener for `youtube-subscribe:gapi-loaded` custom event is registered for a second retry for display the subscribe button.
+5. The subscribe button is rendered after fired from `youtube-subscribe:gapi-loaded` listener callback.
