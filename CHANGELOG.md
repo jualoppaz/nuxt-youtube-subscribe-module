@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.1] - 2021-01-02
+## [0.1.1] - 2021-02-02
 ## Changed
 
 - Add alternative mechanism for very quick components that render before Google API is loaded
