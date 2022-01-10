@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.2] - 2022-01-10
+## Fixed
+
+- Add theme option to render method in plugin.template.js
+
 ## [0.1.1] - 2021-02-02
 ## Changed
 
