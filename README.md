@@ -4,7 +4,7 @@
 This nuxt module is a simple wrapper of the [official Youtube Subscribe Button](https://developers.google.com/youtube/subscribe).
 
 <p float="left">
-  <img src="https://nuxtjs.org/logos/nuxt-icon.png" witdh="50" height="50">
+  <img src="https://nuxtjs.org/design-kit/colored-logo.svg" witdh="50" height="50">
   <img src="https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png" witdh="50" height="50">
  </p>
 
